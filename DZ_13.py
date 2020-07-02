@@ -9,7 +9,7 @@
 
 import random
 lst = [random.randint(1, 50) for i in range(10)]
-k, C = int(input('Введите число: ')), int(input('Введите число: '))        # индекс элемента, значение индекса к
+k, C = int(input('Введите число от 0 до 10: ')), int(input('Введите число: '))        # индекс элемента, значение индекса к
 lst.append(C)
 # print(lst)    ссгенерированный список с добавленным значением С в конец списка
 for i in range(k, len(lst) - 1):
