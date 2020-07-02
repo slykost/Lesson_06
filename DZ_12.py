@@ -5,7 +5,7 @@
 
 import random
 lst = [random.randint(1, 50) for i in range(10)]
-k = int(input('Введите число: '))               # индекс элемента
+k = int(input('Введите число от 0 до 10: '))               # индекс элемента
 # print(lst) # можно просмотреть какое значение стоит под к сравнить исходное с выходящим
 for i in range(k + 1, len(lst)):
         lst[i], lst[k] = lst[k], lst[i]
